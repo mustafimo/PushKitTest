@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">PushKitTest</string>
+    <string name="getToken">gettoken</string>
+</resources>
