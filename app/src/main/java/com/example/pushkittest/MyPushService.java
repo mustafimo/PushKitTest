@@ -5,6 +5,15 @@ import android.util.Log;
 import com.huawei.hms.push.HmsMessageService;
 import com.huawei.hms.push.RemoteMessage;
 
+//Receiving a Token
+//A token is received in the following scenarios:
+//If the EMUI version is 10.0 or later on a Huawei device, a token 
+//is returned through the HmsInstanceId.getInstance.getToken method described in the step of applying for a token.
+
+//If the EMUI version is earlier than 10.0 on a Huawei device,
+//after the HmsInstanceId.getInstance.getToken method is called, 
+//the onNewToken method in the MyPushService class is called to obtain a token.
+
 public class MyPushService extends HmsMessageService {
     private static final String TAG = "PushDemoLog";
 
