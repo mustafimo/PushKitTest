@@ -25,7 +25,9 @@ Android Studio 3.X
 HMS Core 4.X or later
 
 How to get SHA1 certificate fingerprint
+
 For Windows open CMD:
+
 keytool  -list -v -alias androiddebugkey -keystore %USERPROFILE%\.android\debug.keystore
 
 keytool -list -v -keystore "%USERPROFILE%\.android\debug.keystore" -alias androiddebugkey -storepass android -keypass android
@@ -37,6 +39,10 @@ For Mac and Linux:
  
  useful links :
  Push kit : https://developer.huawei.com/consumer/en/codelab/HMSPushKit/index.html#0
+ 
  HMS : https://www.huaweicentral.com/huawei-mobile-services-hms-everything-you-need-to-know/
+ 
+ 
  EMUI : https://consumer.huawei.com/en/emui/
+ 
  AGC ; https://developer.huawei.com/consumer/en/service/josp/agc/index.html
