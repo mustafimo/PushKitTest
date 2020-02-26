@@ -47,7 +47,7 @@ public class MainActivity extends AppCompatActivity {
         });
     }
 
-// get token method to submit a request for token and and get the token value
+// get token method to submit a request for token 
     private void getToken() {
         Log.i(TAG, "get token: begin");
 
