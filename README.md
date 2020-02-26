@@ -16,9 +16,13 @@ Through the demo project, you will:
 
 What You Will Need
 - Hardware Requirements
+
 A computer (desktop or laptop) running Windows 7 or Windows 10.
+
 A Huawei phone (with the USB cable), which is used for debugging.
+
 - Software Requirements
+
 Java JDK installation package
 Android SDK package
 Android Studio 3.X
