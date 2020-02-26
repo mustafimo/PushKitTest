@@ -23,6 +23,14 @@ public class MyPushService extends HmsMessageService {
         Log.i(TAG, "receive token:" + s);
 
     }
+    
+//The MyPushService class is used to:
+
+//1-Return the token applied for using a Huawei device where the EMUI version is earlier than 10.0.
+//2-Receive an updated token from the HUAWEI Push Kit server.
+//3-Return a token that is successfully applied for upon retry.
+
+
 
     @Override
     public void onMessageReceived(RemoteMessage remoteMessage) {
