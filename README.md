@@ -5,7 +5,9 @@ It establishes a messaging channel from the cloud to devices. By integrating HUA
 developers can send messages to apps on users' devices in real time. This helps developers 
 maintain closer ties with users and increases user awareness and engagement. 
 The following points shows the process of sending messages from the cloud to a device:
+
 1- App servers call APIs to send messages to HUAWEI Push Kit.
+
 2- HUAWEI Push Kit forwards the messages to devices with corresponding apps installed.
 
 What You Will Create
